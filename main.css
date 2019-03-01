@@ -41,10 +41,11 @@ margin-left: 30%;
 
 .elinebutton {
 
-background-color: pink;
-block-size: 100px;
+background-color: rgba(17, 13, 16, 0.5);
+block-size: 75px;
 max-width: 90% ;
 width: 600px;
+border: solid 5px white;
 }
 
 
