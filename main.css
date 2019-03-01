@@ -6,6 +6,7 @@
   background-size: cover;
 }
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -13,7 +14,7 @@ ul {
   overflow: hidden;
   background-color: #333;
   opacity: 0.7;
-  height: 50px;
+  height: 75px;
 }
 
 li {
@@ -32,17 +33,36 @@ li a:hover {
   background-color: #111;
 }
 
-.h1 {
+.intro {
+
+margin-top: 10%;
+margin-left: 30%;
+}
+
+.elinebutton {
+
+background-color: pink;
+block-size: 100px;
+max-width: 90% ;
+width: 600px;
+}
+
+
+h1 {
   font-family: fantasy;
   color: white;
-  position: absolute;
+
   font-size: 50px;
-  top: 30%;
-  left: 50%;
+  
   /* transform: translate(-50%, -50%); */
 }
 
- 
+ #collapseCities {
+
+width: 300px;
+
+
+ }
   
 
 /* .container {
