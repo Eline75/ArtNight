@@ -16,14 +16,59 @@
   </head>
   <body>
     <header>
-      <!-- Navigation -->
+      <nav class="navbar sticky-top navbar-expand-lg ">
+        <a class="navbar-brand" href="#">ArtNight</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Kies je stad
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Enschede</a>
+                <a class="dropdown-item" href="#">Amsterdam</a>
+                <a class="dropdown-item" href="#">Utrecht</a>
+                <a class="dropdown-item" href="#">Den Haag</a>
+              </div>
+            </li>
 
-      <ul sticky-top>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prive ArtNight</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kunstenaar worden</a>
+            </li>
+            <button type="button" class="btn btn-primary">Cadeaubon</button>
+          </ul>
+        </div>
+      </nav>
 
       <div class="intro">
         <h1>Jouw belevenis.Jouw kunstwerk.</h1>
@@ -66,27 +111,23 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          atque modi possimus ullam. Ratione itaque dolor suscipit cupiditate.
-          Nostrum esse expedita temporibus accusantium consectetur ratione sit
-          repudiandae. Dolore, iure magni?
+          <h3>In slechts enkele uren creëer je een schilderij</h3>
+          <br /><br />In slechts een paar uur maak jij je eigen kunstwerk en
+          maak je kennis met leuke, nieuwe mensen
         </div>
         <div class="col-sm">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ad
-          alias cum quis iure explicabo unde porro voluptas quae sequi rerum
-          reiciendis, officia aut, esse nobis illum odio iste expedita.
+          <b>Onder begeleiding van een lokale kunstenaar</b><br /><br />
+          Je hebt geen kennis of ervaring nodig! Onze ArtNight Kunstenaars laten
+          je stap voor stap zien wat je moet doen.
         </div>
         <div class="col-sm">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
-          dolorem nesciunt a iure repellendus quia delectus sequi facere vero
-          sint laudantium quasi voluptatibus, autem quisquam illo tempora!
-          Accusantium, numquam dolore?
+          <b>Alle materialen zijn inclusief</b> <br /><br />Je hoeft niets mee
+          te nemen. Ons kwaliteit materiaal zit bij de prijs inbegrepen.
         </div>
         <div class="col-sm">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam eaque
-          laboriosam quaerat doloremque dolor ducimus dolore rerum natus
-          eligendi at ratione maiores reiciendis inventore commodi porro
-          quisquam, consequatur veritatis tenetur?
+          <b> Neem je schilderij mee naar huis</b> <br /><br />Aan het einde van
+          de ArtNight mag je zeker trots zijn op jouw kunstwerk en kun je deze
+          mee naar huis nemen!
         </div>
       </div>
     </div>
@@ -139,44 +180,6 @@
         </div>
       </div>
     </div>
-
-    <!-- 
-    <div class="container mt-5 p-5">
-      <div class="row">
-        <div class="col-sm">
-          <div class="media position-relative">
-            <img src="..." class="mr-3" alt="..." />
-            <div class="media-body">
-              <h5 class="mt-0">Media with stretched link</h5>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                nisi vulputate fringilla. Donec lacinia congue felis in
-                faucibus.
-              </p>
-              <a href="#" class="stretched-link">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <div class="media position-relative">
-            <img src="" class="mr-3" alt="..." />
-            <div class="media-body">
-              <h5 class="mt-0">Media with stretched link</h5>
-              <p>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                scelerisque ante sollicitudin. Cras purus odio, vestibulum in
-                vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                nisi vulputate fringilla. Donec lacinia congue felis in
-                faucibus.
-              </p>
-              <a href="#" class="stretched-link">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="container">
       <div class="card-deck">
@@ -266,6 +269,18 @@
             </p>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="card bg-dark text-white" style="max-width: 540px">
+      <img src="cadeaubonnen.jpg" class="card-img" alt="..." />
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text">Last updated 3 mins ago</p>
       </div>
     </div>
 
