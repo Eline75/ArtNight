@@ -72,6 +72,13 @@ h5 {
   -moz-box-shadow: -14px -20px 27px 0px rgba(0, 0, 0, 0.75);
   box-shadow: -14px -20px 27px 0px rgba(0, 0, 0, 0.75);
 }
+.p-5 {
+  padding: 0px;
+  background-color: rgb(240, 239, 255);
+  -webkit-box-shadow: -14px -20px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -14px -20px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -14px -20px 27px 0px rgba(0, 0, 0, 0.75);
+}
 
 h4 {
   font-size: 25px;
