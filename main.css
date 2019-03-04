@@ -48,6 +48,11 @@ h1 {
 h5 {
   color: black;
 }
+
+h6 {
+  text-align: center;
+  padding-top: 20px;
+}
 .card-text {
   color: black;
 }
@@ -67,6 +72,10 @@ h5 {
 
 .bg-white {
   background-color: white;
+}
+
+.rounded-circle {
+  max-width: 80px;
 }
 
 .elinesShadow {
