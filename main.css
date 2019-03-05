@@ -29,6 +29,14 @@ header {
   margin-left: 30%;
 }
 
+.table th,
+.table td {
+  border-top: 0px solid #dee2e6;
+}
+.card {
+  border: 0px;
+}
+
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -154,11 +162,9 @@ h4 {
 
 .list-group-item {
   background-color: transparent;
-  border-top: 1px solid #ddd;
-  border-radius: 0;
-  color: #fff;
-  text-decoration-color: white;
 }
-.tr {
-  text-decoration-color: white;
+
+th {
+  font-size: 32px;
+  color: white;
 }
