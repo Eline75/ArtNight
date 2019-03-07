@@ -1,5 +1,5 @@
 <nav class="navbar sticky-top navbar-expand-lg  ">
-      <a class="navbar-brand" href="#">Copy<img src="copycat.png" class="" style="height:80px;" alt="cat" /></a>
+      <a class="navbar-brand" href="index.php">Copy<img src="img/copycat.png" class="" style="height:80px;" alt="cat" /></a>
 
       <button
         class="navbar-toggler"
@@ -16,7 +16,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link dropdown-toggle citylink"
               href="#"
               id="navbarDropdownMenuLink"
               role="button"
@@ -27,28 +27,27 @@
               Kies je stad
             </a>
             <div
-              class="dropdown-menu"
+              class="dropdown-menu lowerdrop"
               aria-labelledby="navbarDropdownMenuLink"
             >
-              <a class="dropdown-item" href="Enschede.php">Enschede</a>
-              <a class="dropdown-item" href="Amsterdam.php">Amsterdam</a>
-              <a class="dropdown-item" href="Utrecht.php">Utrecht</a>
-              <a class="dropdown-item" href="DenHaag.php">Den Haag</a>
+              <a class="dropdown-item citylink " href="Enschede.php"  >Enschede</a>
+              <a class="dropdown-item citylink " href="Amsterdam.php">Amsterdam</a>
+              <a class="dropdown-item  citylink" href="Utrecht.php">Utrecht</a>
+              <a class="dropdown-item  citylink" href="DenHaag.php">Den Haag</a>
             </div>
           </li>
-A
+
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link  citylink" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Prive ArtNight</a>
+            <a class="nav-link citylink " href="#">Prive ArtNight</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kunstenaar worden</a>
+            <a class="nav-link citylink" href="#">Kunstenaar worden</a>
           </li>
-          <button type="button" class="btn btn-primary">Cadeaubon</button>
-        </ul>
-      </div>
+          <button type="button" class="btn btn-primary citylink ">Cadeaubon</button>
+        </ul> 
     </nav>

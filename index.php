@@ -1,14 +1,14 @@
 
   <?php
-require_once('head.html'); 
+require_once('templates/head.html'); 
 ?>
  
 <header class="index-header">
 <?php 
 
-require_once('navigation.php');
+require_once('templates/navigation.php');
 
-require_once('header.html');
+require_once('templates/header.html');
   ?>
   </header>
 
@@ -278,7 +278,7 @@ require_once('header.html');
       
 
           <?php
-require_once('footer.php');
+require_once('templates/footer.php');
   ?>
    
 
