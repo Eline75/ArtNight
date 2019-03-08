@@ -35,8 +35,8 @@
 }
 .citylink:hover {
   color: rgb(252, 248, 250);
-  text-decoration: underline;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
 }
 
 .navbar {
@@ -109,6 +109,12 @@
   margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  .inspiratie {
+    font-size: 7px;
+  }
+}
+
 h5 {
   color: black;
 }
@@ -160,9 +166,14 @@ h4 {
   font-weight: bold;
   margin-bottom: 4rem;
   margin-top: 4rem;
-  margin-left: 18%;
+  margin-left: 22%;
   position: relative;
   width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  h4 {
+    margin-left: 2%;
+  }
 }
 
 .container mt-5 {

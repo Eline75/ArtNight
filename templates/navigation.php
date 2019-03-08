@@ -48,6 +48,6 @@
           <li class="nav-item">
             <a class="nav-link citylink" href="#">Kunstenaar worden</a>
           </li>
-          <button type="button" class="btn btn-primary citylink ">Cadeaubon</button>
+          <button type="button" class="btn btn-primary ">Cadeaubon</button>
         </ul> 
     </nav>

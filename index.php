@@ -131,10 +131,7 @@ require_once('templates/header.html');
            </div>
           <div class="card-body bg-white">
             <h5 class="card-title"><b>Danser</b></h5>
-            <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Boslucht</p>
+              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
           <div>
            <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
                       <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
@@ -149,10 +146,7 @@ require_once('templates/header.html');
           </div>
           <div class="card-body bg-white">
             <h5 class="card-title"><b>Crying Frida Kahlo</b></h5>
-            <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Boslucht</p>
+              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
           <div>
            <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
                       <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
@@ -168,9 +162,6 @@ require_once('templates/header.html');
           </div>
             <div class="card-body bg-white">
             <h5 class="card-title"><b>Paint like Klimt</b></h5>
-            <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
               <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Amsterdam, podium Mozaiek</p>
              <div>
            <img src="img/portret4.jpg" class="rounded-circle float-left" alt="woman avatar">
@@ -186,9 +177,6 @@ require_once('templates/header.html');
             </div>
           <div class="card-body bg-light ">
             <h5 class="card-title"><b>Gekleurde leeuw</b></h5>
-             <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
               <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Enschede, Paddy's</p>
           <div>
            <img src="img/portret3.jpg" class="rounded-circle float-left" alt="woman avatar">
@@ -204,10 +192,7 @@ require_once('templates/header.html');
           </div>
           <div class="card-body bg-light">
             <h5 class="card-title"><b>Gekleurde Marilyn Monroe</b></h5>
-            
-            <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
+
               <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Amsterdam, podium Mozaiek</p>
           <div>
            <img src="img/portret4.jpg" class="rounded-circle float-left" alt="woman avatar">
@@ -224,11 +209,7 @@ require_once('templates/header.html');
             </div>
             <div class="card-body bg-light">
               <h5 class="card-title"><b>Vintage auto</b></h5>
-    
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Boslucht</p>
+           <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
           <div>
            <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
                       <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
@@ -244,9 +225,6 @@ require_once('templates/header.html');
             </div>
             <div class="card-body bg-light">
               <h5 class="card-title"><b>David Bowie</b></h5>
-              <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
                 <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Den Haag, Kaai 13</p>
             <div>
              <img src="img/portret.jpg" class="rounded-circle float-left" alt="woman avatar">
@@ -263,9 +241,6 @@ require_once('templates/header.html');
             </div>
             <div class="card-body bg-light">
               <h5 class="card-title"><b>Paint like Modigliani</b></h5>
-              <p class="card-text">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
                 <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Enschede, Paddy's</p>
             <div>
              <img src="img/portret3.jpg" class="rounded-circle float-left" alt="woman avatar">
