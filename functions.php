@@ -1,7 +1,6 @@
 <?php
-function getCard ($title,$img,$place) {
-    //echo "<h5 class=\"card-title\"><b>$title</b></h5>";
-    //echo '<h5 class=\"card-title\"><b>'.$title.'</b></h5>';
+function getCard ($title,$img,$place,$kunstenaar,$IconImg) {
+  
 
     echo '<div class="card elinesShadow  hvr-grow ">
           <div class="p-5">
@@ -11,8 +10,8 @@ function getCard ($title,$img,$place) {
             <h5 class="card-title"><b>'.$title.'</b></h5>
               <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;'.$place.'</p>
           <div>
-           <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
+           <img src="'.$IconImg.'" class="rounded-circle float-left" alt="woman avatar">
+                      <h6>Jouw kunstenaar is <br><b>'.$kunstenaar.'</b></h6>
           </div>
           </div>
         </div>';
@@ -21,4 +20,3 @@ function getCard ($title,$img,$place) {
 
 ?>
 
-<!-- <h5 class="card-title"><b>$title</b></h5> -->

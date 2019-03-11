@@ -17,10 +17,10 @@ require_once('templates/navigation.php');
       <div class="card-deck">
 
         <?php
-          // echo getCardcontent('frida.png', 'Crying Frida Kahlo', 'Utrecht, cafe Fluitje');
-          echo getCard("Vintage auto", "img/oldtimer.png", "Utrecht, cafe Fluitje");
-          echo getCard("Danser", "img/danser.png","Utrecht, cafe Fluitje");
-          echo getCard("Crying Frida Kahlo","img/frida.png", "Utrecht, cafe Fluitje");
+        
+          echo getCard("Vintage auto", "img/oldtimer.png", "Utrecht, cafe Fluitje", "Anna Doe","img/portret.jpg" );
+          echo getCard("David Bowie", "img/bowie.png","Utrecht, cafe Fluitje", "Anna Doe", "img/portret.jpg");
+          echo getCard("Paint like Modigliani","img/modigliani.png", "Utrecht, cafe Fluitje", "Anna Doe","img/portret.jpg");
 
         ?>
    

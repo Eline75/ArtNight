@@ -7,7 +7,36 @@
 .Utrecht {
   width: 100%;
   height: 100vh;
-  background: url(Utrecht.jpg) center center no-repeat;
+  background: url(img/Utrecht2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.Deventer {
+  width: 100%;
+  height: 100vh;
+  background: url(img/Deventer.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.hovereffect:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.hovereffect1:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+.DenHaag {
+  width: 100%;
+  height: 100vh;
+  background: url(img/den-haag.jpg) center center no-repeat;
+  background-size: cover;
+}
+.Amsterdam {
+  width: 100%;
+  height: 100vh;
+  background: url(img/Amsterdam1.jpg) center center no-repeat;
   background-size: cover;
 }
 
@@ -15,19 +44,6 @@
   margin-top: 50px;
   background-color: rgba(0, 0, 0, 0.5);
   border: solid white 2px;
-}
-
-.DenHaag {
-  width: 100%;
-  height: 100vh;
-  background: url(den-haag.jpg) center center no-repeat;
-  background-size: cover;
-}
-.Amsterdam {
-  width: 100%;
-  height: 100vh;
-  background: url(Amsterdam.jpg) center center no-repeat;
-  background-size: cover;
 }
 
 .citylink {
@@ -67,6 +83,7 @@
 .table th,
 .table td {
   border-top: 0px solid #dee2e6;
+  padding: 5px;
 }
 .card {
   border: 0px;

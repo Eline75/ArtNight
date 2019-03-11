@@ -30,7 +30,7 @@
               class="dropdown-menu lowerdrop"
               aria-labelledby="navbarDropdownMenuLink"
             >
-              <a class="dropdown-item citylink " href="Enschede.php"  >Enschede</a>
+              <a class="dropdown-item citylink " href="Deventer.php" >Deventer</a>
               <a class="dropdown-item citylink " href="Amsterdam.php">Amsterdam</a>
               <a class="dropdown-item  citylink" href="Utrecht.php">Utrecht</a>
               <a class="dropdown-item  citylink" href="DenHaag.php">Den Haag</a>

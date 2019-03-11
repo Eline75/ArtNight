@@ -1,6 +1,7 @@
 
-  <?php
+<?php
 require_once('templates/head.html'); 
+require_once("functions.php");
 ?>
  
 <header class="index-header">
@@ -106,153 +107,66 @@ require_once('templates/header.html');
             </a> 
     </div>
 
+
     <div class="container mt-5 ">
+  <div class="card-deck">
+
+        <?php
+        
+          echo getCard("Vintage auto", "img/oldtimer.png", "Deventer, cafe 't Fluitje", "Maartje Doe","img/portret2.jpg" );
+          echo getCard("Danser", "img/danser.png", "Deventer, cafe 't Fluitje", "Maartje Doe", "img/portret2.jpg");
+          echo getCard("Crying Frida Kahlo","img/frida.png", "Deventer, cafe 't SFluitje", "Maartje Doe","img/portret2.jpg");
+
+        ?>
+   
+  </div>
+</div>
+
+
+
+<div class="container mt-5 ">
       <div class="card-deck">
-        <div class="card elinesShadow hvr-grow  ">
-            <div class="p-5">
-          <img src="img/bloesem.png" class="card-img-top elinesShadow-sm" alt="van gogh" />
-          </div>
-             <div class="card-body bg-white">
-            <h5 class="card-title"><b>Kersenbloesem tak</b></h5>
-             <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Den Haag, Kaai 13</p>
-                <div>
-           <img src="img/portret.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Anna Doe</b></h6>
 
-                </div>
-              </div>
-           </div>
-      
+        <?php
+          
+          echo getCard("Paint like Klimt", "img/klimt.png", "Amsterdam, podium Mozaiek", "Peter Doe","img/portret4.jpg" );
+          echo getCard("Gekleurde leeuw", "img/leeuw.png","Amsterdam, podium Mozaiek", "Peter Doe", "img/portret4.jpg");
+          echo getCard("Gekleurde Marilyn","img/Marilyn.png", "Amsterdam, podium Mozaiek", "Peter Doe","img/portret4.jpg");
+
+        ?>
+   
+ </div>
+</div>
+
+<div class="container mt-5 ">
+      <div class="card-deck">
+
+        <?php
         
-      
-      <div class="card elinesShadow hvr-grow  ">
-           <div class="p-5">
-          <img src="img/danser.png" class="card-img-top elinesShadow-sm" alt="..." />
-           </div>
-          <div class="card-body bg-white">
-            <h5 class="card-title"><b>Danser</b></h5>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
-          <div>
-           <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
-          </div>
-          </div>
-        </div>
-    
+          echo getCard("Vintage auto", "img/oldtimer.png", "Utrecht, cafe Fluitje", "Anna Doe","img/portret.jpg" );
+          echo getCard("David Bowie", "img/bowie.png","Utrecht, cafe Fluitje", "Anna Doe", "img/portret.jpg");
+          echo getCard("Paint like Modigliani","img/modigliani.png", "Utrecht, cafe Fluitje", "Anna Doe","img/portret.jpg");
 
-        <div class="card elinesShadow  hvr-grow ">
-          <div class="p-5">
-            <img src="img/frida.png" class="card-img-top elinesShadow-sm" alt="..." />
-          </div>
-          <div class="card-body bg-white">
-            <h5 class="card-title"><b>Crying Frida Kahlo</b></h5>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
-          <div>
-           <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
-          </div>
-          </div>
-        </div>
-    </div>
+        ?>
+   
+ </div>
+</div>
 
-  <div class="card-deck mt-5">
-      <div class="card elinesShadow  hvr-grow ">
-          <div class="p-5">
-          <img src="img/klimmt.png" class="card-img-top elinesShadow-sm" alt="..." />
-          </div>
-            <div class="card-body bg-white">
-            <h5 class="card-title"><b>Paint like Klimt</b></h5>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Amsterdam, podium Mozaiek</p>
-             <div>
-           <img src="img/portret4.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Peter Doe</b></h6>
-          </div>
-        </div>
-      </div>
-       
+<div class="container mt-5 ">
+      <div class="card-deck">
 
-      <div class="card elinesShadow  hvr-grow ">
-            <div class="p-5">
-          <img src="img/leeuw.png" class="card-img-top elinesShadow-sm" alt="..." />
-            </div>
-          <div class="card-body bg-light ">
-            <h5 class="card-title"><b>Gekleurde leeuw</b></h5>
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Enschede, Paddy's</p>
-          <div>
-           <img src="img/portret3.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Petra Doe</b></h6>
-            </div>
-          </div>
-        </div>
-        
+        <?php
+          // echo getCardcontent('frida.png', 'Crying Frida Kahlo', 'Utrecht, cafe Fluitje');
+          echo getCard("Paint like Picasso", "img/picasso.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg" );
+          echo getCard("Paint like Klimt", "img/DeKus.png","Den Haag, Grote Kade 12", "Petra Doe", "img/portret3.jpg");
+          echo getCard("Frida Kahlo portret","img/frida2.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg");
 
-        <div class="card elinesShadow  hvr-grow ">
-            <div class="p-5">
-          <img src="img/Marilyn.png" class="card-img-top elinesShadow-sm " alt="..." />
-          </div>
-          <div class="card-body bg-light">
-            <h5 class="card-title"><b>Gekleurde Marilyn Monroe</b></h5>
+        ?>
+   </div>
+</div>
 
-              <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Amsterdam, podium Mozaiek</p>
-          <div>
-           <img src="img/portret4.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Peter Doe</b></h6>
-            </div>
-           </div>
-         </div>
-      </div>
 
-      <div class="card-deck mt-5">
-          <div class="card elinesShadow  hvr-grow ">
-              <div class="p-5">
-            <img src="img/oldtimer.png" class="card-img-top elinesShadow-sm" alt="..." />
-            </div>
-            <div class="card-body bg-light">
-              <h5 class="card-title"><b>Vintage auto</b></h5>
-           <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Utrecht, cafe Fluitje</p>
-          <div>
-           <img src="img/portret2.jpg" class="rounded-circle float-left" alt="woman avatar">
-                      <h6>Jouw kunstenaar is <br><b>Maartje Doe</b></h6>
-          </div>
-             </div>
-           </div>
-         
-  
-  
-          <div class="card elinesShadow  hvr-grow ">
-              <div class="p-5">
-            <img src="img/bowie.png" class="card-img-top elinesShadow-sm" alt="..." />
-            </div>
-            <div class="card-body bg-light">
-              <h5 class="card-title"><b>David Bowie</b></h5>
-                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Den Haag, Kaai 13</p>
-            <div>
-             <img src="img/portret.jpg" class="rounded-circle float-left" alt="woman avatar">
-                        <h6>Jouw kunstenaar is <br><b>Anna Doe</b></h6>
-            </div>
-             
-            </div>
-           </div>
-        
-  
-          <div class="card elinesShadow  hvr-grow ">
-              <div class="p-5">
-            <img src="img/modigliani.png" class="card-img-top elinesShadow-sm" alt="..." />
-            </div>
-            <div class="card-body bg-light">
-              <h5 class="card-title"><b>Paint like Modigliani</b></h5>
-                <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Enschede, Paddy's</p>
-            <div>
-             <img src="img/portret3.jpg" class="rounded-circle float-left" alt="woman avatar">
-                        <h6>Jouw kunstenaar is <br><b>Petra Doe</b></h6>
-            </div>
-            </div>
-            </div>
-          </div>
-        
-      
-
-          <?php
+ <?php
 require_once('templates/footer.php');
   ?>
    
