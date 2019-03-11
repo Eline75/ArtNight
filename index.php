@@ -156,7 +156,7 @@ require_once('templates/header.html');
       <div class="card-deck">
 
         <?php
-          // echo getCardcontent('frida.png', 'Crying Frida Kahlo', 'Utrecht, cafe Fluitje');
+         
           echo getCard("Paint like Picasso", "img/picasso.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg" );
           echo getCard("Paint like Klimt", "img/DeKus.png","Den Haag, Grote Kade 12", "Petra Doe", "img/portret3.jpg");
           echo getCard("Frida Kahlo portret","img/frida2.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg");

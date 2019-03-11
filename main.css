@@ -18,15 +18,6 @@
   background-size: cover;
 }
 
-.hovereffect:hover {
-  opacity: 0.2;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
-}
-.hovereffect1:hover {
-  opacity: 0.2;
-  filter: alpha(opacity=10); /* For IE8 and earlier */
-}
-
 .DenHaag {
   width: 100%;
   height: 100vh;
@@ -87,6 +78,10 @@
 }
 .card {
   border: 0px;
+  background-color: rgba(240, 236, 236, 0.6);
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(130, 126, 130, 1);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(130, 126, 130, 1);
+  box-shadow: 0px 0px 10px 2px rgba(130, 126, 130, 1);
 }
 
 .hvr-grow {
@@ -225,6 +220,7 @@ h4 {
 
 .list-group-item {
   background-color: transparent;
+  color: white;
 }
 
 th {

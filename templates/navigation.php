@@ -48,6 +48,10 @@
           <li class="nav-item">
             <a class="nav-link citylink" href="#">Kunstenaar worden</a>
           </li>
-          <button type="button" class="btn btn-primary ">Cadeaubon</button>
+          <i class="fas fa-shopping-cart fa-2x" style="color: white"></i>
+
+
+
+    <p><a id="clicks" class='badge badge-primary text-white' id='lblCartCount'>0</a></p>
         </ul> 
     </nav>
