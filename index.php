@@ -1,6 +1,6 @@
 
 <?php
-require_once('templates/head.html'); 
+require_once('templates/head.php'); 
 require_once("functions.php");
 ?>
  
