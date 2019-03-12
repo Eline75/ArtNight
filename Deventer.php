@@ -18,7 +18,7 @@ require_once('templates/navigation.php');
       <div class="card-body w-100">
       <ul class="list-group list-group-flush">
         <li class="list-group-item"><b>Vintage auto</b></li>
-        <li class="list-group-item">20 maart, woensdag 19:00-22:00 <br>cafe 't Fluitje </li>
+        <li class="list-group-item">20 maart, vrijdag 19:00-22:00 <br>cafe 't Fluitje </li>
         <li class="list-group-item">Jouw kunstenaar: <b> Maartje Doe</b></li>
       </ul>
       <img src="googleDev.png" class="card-img hovereffect1" alt="...">
@@ -30,7 +30,7 @@ require_once('templates/navigation.php');
     <div class="col">
       <div class="card" style="height: 70vh;">
         <div class="card-body  mx-auto">
-         <h5 class="card-title"><b>Vintage auto</b></h5>
+         <h5 class="card-title1"><b>Vintage auto</b></h5>
           <div class="p-5">
             <img src="img/oldtimer.png" class="card-img elinesShadow" style="height: 40vh; width: auto;" alt="...">
       

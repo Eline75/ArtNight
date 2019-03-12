@@ -30,7 +30,7 @@ require_once('templates/navigation.php');
     <div class="col">
       <div class="card" style="height: 70vh;">
         <div class="card-body  mx-auto">
-         <h5 class="card-title"><b>Vintage auto</b></h5>
+         <h5 class="card-title1"><b>Vintage auto</b></h5>
           <div class="p-5">
             <img src="img/oldtimer.png" class="card-img elinesShadow" style="height: 40vh; width: auto;" alt="...">
       
