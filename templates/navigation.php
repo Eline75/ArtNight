@@ -38,15 +38,15 @@
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link  citylink" href="#"
+            <a class="nav-link  citylink" href="index.php"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link citylink " href="#">Prive ArtNight</a>
+            <a class="nav-link citylink " href="UnderConstruction.php">Prive ArtNight</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link citylink" href="#">Kunstenaar worden</a>
+            <a class="nav-link citylink" href="UnderConstruction.php">Kunstenaar worden</a>
           </li>
           <i class="fas fa-shopping-cart fa-2x" style="color: white"></i>
 

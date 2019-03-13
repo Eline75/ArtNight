@@ -12,8 +12,9 @@ require_once('templates/navigation.php');
 <div class="container pt-5">
   <div class="row">
 
+
     <div class="col">
-      <div class="card" style="height: 70vh;">
+      <div class="card card-border" style="height: 70vh;">
       <div class="card-body w-100">
       <ul class="list-group list-group-flush">
         <li class="list-group-item"><b>Paint like Picasso</b></li>
@@ -27,7 +28,7 @@ require_once('templates/navigation.php');
     
     
     <div class="col">
-      <div class="card" style="height: 70vh;">
+      <div class="card card-border" style="height: 70vh;">
         <div class="card-body  mx-auto">
          <h5 class="card-title1"><b>Paint like Picasso</b></h5>
           <div class="p-5">

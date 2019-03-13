@@ -11,7 +11,7 @@ require_once('templates/navigation.php');
 
 require_once('templates/header.html');
   ?>
-  </header>
+  </header>  
 
 
 

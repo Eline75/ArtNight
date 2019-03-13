@@ -22,7 +22,8 @@
     <link
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway"
       rel="stylesheet"
-    />
+      />
+      <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet"> 
   </head>
   <body>
 
