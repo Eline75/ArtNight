@@ -115,7 +115,7 @@ require_once('templates/header.html');
         
           echo getCard("Vintage auto", "img/oldtimer.png", "Deventer, cafe 't Fluitje", "Maartje Doe","img/portret2.jpg" );
           echo getCard("Danser", "img/danser.png", "Deventer, cafe 't Fluitje", "Maartje Doe", "img/portret2.jpg");
-          echo getCard("Crying Frida Kahlo","img/frida.png", "Deventer, cafe 't SFluitje", "Maartje Doe","img/portret2.jpg");
+          echo getCard("Crying Frida Kahlo","img/Frida.png", "Deventer, cafe 't Fluitje", "Maartje Doe","img/portret2.jpg");
 
         ?>
    
