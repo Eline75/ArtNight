@@ -32,7 +32,7 @@ require_once('templates/navigation.php');
         <div class="card-body  mx-auto">
          <h5 class="card-title1"><b>Paint like Picasso</b></h5>
           <div class="p-5">
-            <img src="img/picasso.png" class="card-img elinesShadow" style="height: 40vh; width: auto;" alt="...">
+            <img src="img/Picasso.png" class="card-img elinesShadow" style="height: 40vh; width: auto;" alt="...">
       
              <form class=" col-12"> 
              <div class="row">
@@ -81,7 +81,7 @@ require_once('templates/navigation.php');
 
         <?php
         
-          echo getCard("Paint like Picasso", "img/picasso.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg" );
+          echo getCard("Paint like Picasso", "img/Picasso.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg" );
           echo getCard("Paint like Klimt", "img/DeKus.png","Den Haag, Grote Kade 12", "Petra Doe", "img/portret3.jpg");
           echo getCard("Frida Kahlo portret","img/frida2.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg");
 
