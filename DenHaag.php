@@ -83,7 +83,7 @@ require_once('templates/navigation.php');
         
           echo getCard("Paint like Picasso", "img/Picasso.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg" );
           echo getCard("Paint like Klimt", "img/DeKus.png","Den Haag, Grote Kade 12", "Petra Doe", "img/portret3.jpg");
-          echo getCard("Frida Kahlo portret","img/frida2.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg");
+          echo getCard("Frida Kahlo portret","img/Frida2.png", "Den Haag, Grote Kade 12", "Petra Doe","img/portret3.jpg");
 
         ?>
    
